@@ -6,10 +6,21 @@ An NFT mint using merkle tree leaves amd proofs. Built using [merkle-tree-rs](ht
 
 Clone the repository
 
-` git clone git@github.com:literallymarvellous/nft-merkle-airdrop.git cd nft-merkle-airdrop`
+``` 
+  git clone git@github.com:literallymarvellous/nft-merkle-airdrop.git 
+
+  cd nft-merkle-airdrop
+```
 
 Generate merkle tree and get proof for leaf. Generates a json containing the merkle tree.
-` cd merkle-tree cargo build cargo run`
+``` cd merkle-tree 
+    cargo build 
+    cargo run
+```
 
 Run NFT tests
-` cd contract forge build forge test`
+```
+  cd contract 
+  forge build 
+  forge test
+```
